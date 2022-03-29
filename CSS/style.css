@@ -1,9 +1,17 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+.nav{
+    background-color: rgb(6, 54, 102);
+    padding: 10px;
+    list-style: none;
+    text-align: center;
 }
-
-.veterinario{
-    
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0 ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.boton{
+    background-color: rgb(18, 18, 94);
+    color: aliceblue;
 }
