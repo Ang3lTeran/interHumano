@@ -1,17 +1,36 @@
-.nav{
-    background-color: rgb(6, 54, 102);
-    padding: 10px;
-    list-style: none;
-    text-align: center;
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
 }
-.nav li{
-    display: inline-block;
-    font-size: 20px;
-    margin: 10px 0 ;
-    padding-left: 20px;
-    padding-right: 20px;
+a{
+    text-decoration: none;
+    color: beige;
 }
-.boton{
-    background-color: rgb(18, 18, 94);
-    color: aliceblue;
+header{
+    display: flex;
+    min-height: 50px;
+    background-color: blue;
+    justify-content: space-between;
+    /*Nos servira para mandar el logo en una esquina y el 
+    texto en otro*/
+    align-items: center;
+    padding: 5px;
+}
+.logo{
+    display: flex; /*Sirve para mandar todo horizontalmente*/
+    align-items: center;/*Nos servira para poder centrar el logo*/
+
+}
+.logo img{
+    height: 50px;
+}
+nav{
+    font-weight: 600px;
+
+}
+@media (max-width:700px) {
+    header{
+        flex-direction: column;
+    }
+    
 }
