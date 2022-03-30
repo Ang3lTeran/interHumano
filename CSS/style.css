@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     box-sizing: border-box;
     padding: 0;
@@ -5,4 +6,41 @@
 }
 html{
     font-size: 62.5%;
+=======
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+header{
+    display: flex;
+    min-height: 50px;
+    background-color: blue;
+    justify-content: space-between;
+    /*Nos servira para mandar el logo en una esquina y el 
+    texto en otro*/
+    align-items: center;
+    padding: 5px;
+}
+.logo{
+    display: flex; /*Sirve para mandar todo horizontalmente*/
+    align-items: center;/*Nos servira para poder centrar el logo*/
+
+}
+.logo img{
+    height: 50px;
+}
+nav{
+    font-weight: 600px;
+
+}
+@media (max-width:700px) {
+    header{
+        flex-direction: column;
+    }
+    
+>>>>>>> eaa9926dcbe6fd5858f965f1a45c71451d0fbcf1
 }
