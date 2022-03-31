@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -6,7 +6,8 @@
 }
 html{
     font-size: 62.5%;
-=======
+}
+
 body{
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
@@ -41,6 +42,5 @@ nav{
     header{
         flex-direction: column;
     }
-    
->>>>>>> eaa9926dcbe6fd5858f965f1a45c71451d0fbcf1
+
 }
