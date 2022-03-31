@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    font-family: 'Courier New', Courier, monospace;
+    
     margin: 0;
 }
 a{
@@ -17,6 +17,8 @@ a{
     color: beige;
 }
 header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
     display: flex;
     min-height: 50px;
     background-color: blue;
@@ -37,6 +39,12 @@ header{
 nav{
     font-weight: 600px;
 
+}
+.nav-header a:hover{
+    color: darkorange;
+}
+.nav-header a:active{
+    color:darkgoldenrod
 }
 @media (max-width:700px) {
     header{
