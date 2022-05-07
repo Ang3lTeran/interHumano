@@ -181,22 +181,28 @@ nav{
     position: absolute;
     width: 80vw;
     height: 113vh;
-    background-color: aqua;
+
     right: 10vw;
     top: 40vh;
 }
 .aside-categorias-img{
-    display: block;
+    display: inline-block;
     width: 60vw;
     height: 25vh;
     margin: 5% auto;
-    background-color: violet;
+    left: 10vw;
+
+    border-radius: 1rem;
+    position: relative;
+    text-align: center;
 }
 .categoria-img{
-    display: block;
+    position: relative;
     width: 40vw;
     height: 25vh;
-    margin-right: 2.5wh;
+    position: relative;
+    text-align: center;
+    border-radius: 1rem;
 }
 .camillas{
     top:20vh;
