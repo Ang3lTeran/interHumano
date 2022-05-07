@@ -197,13 +197,6 @@ nav{
     text-align: center;
 }
 .categoria-img{
-<<<<<<< HEAD
-    position: relative;
-    width: 40vw;
-=======
-    display: block;
-    width: 60vw;
->>>>>>> faad69bc0fff1a45f953096cc5bf503ebdb0647c
     height: 25vh;
     position: relative;
     text-align: center;
