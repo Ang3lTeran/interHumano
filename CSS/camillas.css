@@ -1,0 +1,23 @@
+.categorias{
+    position: absolute;
+    width: 80vw;
+    height: 113vh;
+    right: 10vw;
+    top: 40vh;
+}
+.aside-categorias-img{
+    display: block;
+    width: 60vw;
+    height: 25vh;
+    margin: 5% auto;
+}
+.categoria-img{
+    display: block;
+    width: 60vw;
+    height: 25vh;
+    margin-right: 2.5wh;
+}
+.camillas{
+    top:20vh;
+    
+}
