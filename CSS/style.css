@@ -23,16 +23,16 @@ a{
 }
 header{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 12px;
+    font-size: 1.2rem;
     display: flex;
-    min-height: 60px;
+    height: 8vh;
     /* Conjunto 1 background-color: #eeffe1ea; */
     background-color:var(--primaryColor) ;
     justify-content: space-between;
     /*Nos servira para mandar el logo en una esquina y el 
     texto en otro*/
     align-items: center;
-    padding: 5px;
+    padding: .5rem;
 }
 .logo{
     display: flex; /*Sirve para mandar todo horizontalmente*/
@@ -41,6 +41,10 @@ header{
 }
 .logo img{
     height: 50px;
+}
+.carrito{
+    height: 6wh;
+    width: 7vw;
 }
 nav{
     font-weight: 600rem;
@@ -171,10 +175,18 @@ nav{
 }
 
 
-@media (max-width:700px) {
-    header{
-        flex-direction: column;
-    }
+.categorias{
+    position: absolute;
+    width: 80vw;
+    height: 113vh;
+    background-color: aqua;
+    right: 10vw;
+    top: 40vh;
 }
-
-
+.aside-categorias-img{
+    display: block;
+    width: 60vw;
+    height: 25vh;
+    margin: 5% auto;
+    background-color: violet;
+}
