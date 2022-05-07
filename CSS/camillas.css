@@ -14,11 +14,11 @@
 .categoria-img{
     display: block;
     width: 60vw;
-    text-align: center;
     height: 25vh;
     margin-right: 2.5wh;
 }
 .camillas{
+    text-align: center;
     top:30vh;
 }
 .precio{
