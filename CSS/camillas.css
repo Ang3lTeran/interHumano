@@ -19,5 +19,9 @@
 }
 .camillas{
     top:20vh;
-    
+}
+.precio{
+    text-align: center;
+    background-color: rgb(6, 43, 112);
+    color: cornsilk;
 }
