@@ -1,0 +1,93 @@
+:root{
+    --primaryColor:#24636B;
+    --secundaryColor:#98E4EE;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    
+    margin: 0;
+    /*Cnjunto 1 background-color: # fcffec; */
+    background-color:var(--secundaryColor);
+}
+a{
+    text-decoration: none;
+    /* Conjunto  color: rgb ( 89, 241, 203); */
+    color:#ffffff
+}
+header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    display: flex;
+    height: 8vh;
+    /* Conjunto 1 background-color: #eeffe1ea; */
+    background-color:var(--primaryColor) ;
+    justify-content: space-between;
+    /*Nos servira para mandar el logo en una esquina y el 
+    texto en otro*/
+    align-items: center;
+    padding: .5rem;
+}
+.logo{
+    display: flex; /*Sirve para mandar todo horizontalmente*/
+    align-items: center;/*Nos servira para poder centrar el logo*/
+
+}
+.logo img{
+    height: 50px;
+}
+.carrito{
+    height: 6wh;
+    width: 7vw;
+}
+nav{
+    font-weight: 600rem;
+}
+.textProduct{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(85, 75, 75);
+}
+.categorias{
+    position: absolute;
+    width: 80vw;
+    height: 113vh;
+    right: 10vw;
+    top: 10vh;
+}
+.aside-categorias-img{
+    display: inline-block;
+    width: 60vw;
+    height: 25vh;
+    margin: 5% auto;
+    left: 10vw;
+
+    border-radius: 1rem;
+    position: relative;
+    text-align: center;
+}
+.categoria-img{
+    position: relative;
+    width: 65vw;
+    height: 40vh;
+    text-align: center;
+    border-radius: 1rem;
+}
+.camillas{
+    top:20vh;
+}
+.precio{
+    text-align: end;
+    color: rgb(116, 7, 7);
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+    color: black;
+}
