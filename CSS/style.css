@@ -1,6 +1,7 @@
 :root{
-    --primaryColor:#24636B;
-    --secundaryColor:#98E4EE;
+    --primaryColor:#021843;
+   /** --primaryColor:#24636B;**/
+    --secundaryColor:#3065cc;
 }
 *{
     box-sizing: border-box;
