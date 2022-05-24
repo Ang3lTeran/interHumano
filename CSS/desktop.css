@@ -6,8 +6,9 @@
     margin-top: 26px;
     text-align: center;
     max-width: 40%;
-    max-block-size: -10%;
+    max-height: 38vh;
 }
+
 /*Tres puntos*/
 .slide-inner {
     position: relative;
@@ -35,8 +36,8 @@
 .slide-item img {
     display:block;
     margin:auto;
-    max-width: 100%;
-    height: 150px;
+    max-width: 100vw;
+    height: 38vh;
 }
 
 .slide-control {
@@ -134,9 +135,9 @@
     position: absolute;
     width: 80vw;
     height: 105vh;
-
+    
     right: 22vw;
-    top: 50vh;
+    top:60vh;
 }
 .aside-categorias-img{ /*Imagenes */
     display: inline-flexbox;
@@ -150,6 +151,7 @@
     text-align: start;
 }
 .categoria-img{
+    top:2rem;
     position: relative;
     width: 25vw;
     height: 48vh;
@@ -160,3 +162,9 @@
     margin-top: 6px;
     margin-bottom: 6px;
 }
+.logoHeader{
+    width: 14vh;
+    max-height: 8vh;
+}
+
+
