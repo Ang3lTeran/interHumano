@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<header>
+    <a href="#" class="logo">
+        <img src="img/logoHGW.png" alt="Logo">
+    </a>
+    <nav>
+        <a href="/Compras/compra.html" class="nav-link"><img class="carrito" src="https://cdn-icons-png.flaticon.com/512/5613/5613363.png" alt=""></a>
+        <a href="" class="nav-link"><img class="carrito" src="https://cdn-icons.flaticon.com/png/512/2173/premium/2173411.png?token=exp=1651895725~hmac=1acb7c91e576c9b3547109ae41a4f9c5" alt=""></a>
+        <a href="" class="nav-link"><img class="carrito" src="https://cdn-icons.flaticon.com/png/512/2930/premium/2930697.png?token=exp=1651895726~hmac=bb878c740e2a389c42cbe850cbc20c90" alt=""></a>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Elementos generados a partir del JSON -->
+            
+            <!-- Carrito -->
+            <aside class="col-sm-4">
+                <h2 class="tituloCar">Carrito</h2>
+                <section class="noMostrarNo" id="items"></section>
+                <!-- Elementos del carrito -->
+                <ul id="carrito" class="list-group"></ul>
+                <br>
+                <!-- Precio total -->
+                <p class="text-right">Total: $ <span name = "total" class="totalCar" id="total"></span></p>
+                <button id="boton-vaciar" class="btnVaciarCar">Vaciar</button>
+                <button class="btnComprarCar"><a href="form.html">comprar</a></button>
+            </aside>
+        </div>
+    </div>
+    <section class="datos">
+        <form name="datos" action="#" >
+            <h2>Ingresa tus datos:</h2>
+            <br />
+               <p> Nombre: <input name="name" type="text"/> </p> 
+               <p>Apellido: <input name="lastName" type="text" /></p>
+               <br />
+               <h2>Direccion de entrega</h2>
+               <br />
+               <p> Calle: <input name="street" type="text"/> </p> 
+               <p> Colonia: <input name="colonia" type="text"/> </p>
+               <p> Estado: <input name="estado" type="text"/> </p>
+               <p> Municipio: <input name="municipio" type="text"/> </p>
+               <p> Co&aacute;digo postal: <input name="cp" type="text"/> </p>
+               <br>
+               <h2>Contacto</h2>
+               <p> Telecono: <input name="phoneNumber" type="text"/> </p> 
+               <p> Email: <input name="mail" type="text" /></p>
+               <br /><br />
+                <h2>Seleccione su metodo de pago</h2>
+                <br />
+                <input type="radio" name="opciones" value="multiples" id="opcion1"> Cr&eacute;dito/D&eacute;bito<br>
+                <div id="div1"> 
+                    <input id ="tdc"name = "tdc" type="text" class="form-control "placeholder="Ingrese los 16 digitos de tu tarjeta."></input>
+                    <p>Ingrese la fecha de vencimiento de su tarjeta.</p>
+                    <input type="text" class="form-control " name="query" placeholder="mes-year"></input>
+                    <p>CVV</p>
+                    <input type="text" class="form-control " name="query" placeholder="CVV"></input>
+                    <p>Nombre como aparece en la tarjeta.</p>
+                    <input type="text" class="form-control " name="query" placeholder="mes-year"></input>
+                </div>
+                <input type="radio" name="opciones" value="individual" id="opcion2">Pagos mensuales con tarjeta de cr&eacute;dito<br>
+                <div id="div2">
+                  <input type="radio" name="checkbox" id="checkbox1">
+                          <label>12 mensualidades</label>
+                  <input type="radio" name="checkbox" id="checkbox1">
+                          <label>6 mensualidades</label>
+                  <input type="radio" name="checkbox" id="checkbox1">
+                          <label>3 mensualidades</label>
+                  <br />
+                  <input type="text" class="form-control " name="query" placeholder="Ingrese los 16 digitos de tu tarjeta."></input>
+                  <p>Ingrese la fecha de vencimiento de su tarjeta.</p>
+                  <input type="text" class="form-control " name="query" placeholder="mes-year"></input>
+                  <p>CVV</p>
+                  <input type="text" class="form-control " name="query" placeholder="CVV"></input>
+                  <p>Nombre como aparece en la tarjeta.</p>
+                  <input type="text" class="form-control " name="query" placeholder="mes-year"></input>
+                </div>
+                </div>
+                <input type="radio" name="opciones" value="individual" id="opcion3">Paypal<br>
+                <div id="div3">
+                    <img class="imgDatos"src="https://fexlaw.com/wp-content/uploads/2021/04/boton-paypal.png" alt="">
+                </div>
+                <input type="radio" name="opciones" value="individual" id="opcion4">Tranferencia<br>
+                <div id="div4">
+                    <ul>
+                      <li>Transferencia bancaria</li>
+                      <br />
+                      <li>Convenio: 128869</li>
+                      <li>Referencia: 090000001033058269</li>
+                    </ul>
+                </div>
+                <input type="radio" name="opciones" value="individual" id="opcion5">Pago en efectivo<br>
+                <div id="div5">
+                    <ul>
+                      <li><h3>Banco</h3></li>
+                      <li type="none">Referencia: 090000001033058269</li>
+                      <li type="none">Cuenta: 90902080</li>
+                    </ul>
+                    <ul>
+                      <li><h3>OXXO</h3></li>
+                      <li>909069231127</li>
+                      <li><img class="imgDatos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/EAN13.svg/1200px-EAN13.svg.png" alt=""></li>
+                    </ul>
+                </div>
+                <input type="radio" name="opciones" value="individual" id="opcion6">CoDi<br>
+                <div id="div6">
+                    <h3>Codi</h3>
+                </div>
+                <input type="radio" name="opciones" value="individual" id="opcion7">Mercado Pago<br>
+                <div id="div7">
+                    <h3>MP</h3>
+                </div>    
+               <br />
+               <p><input class = "btnCompra" name="ver" type="button" value="Realizar Compra" />
+            </form> 
+            <!--<div id="caja"></div> -->
+            
+            <script src="js/script.js"></script>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
