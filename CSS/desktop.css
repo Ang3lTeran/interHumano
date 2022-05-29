@@ -5,8 +5,10 @@
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
     margin-top: 26px;
     text-align: center;
-    max-width: 70%;
+    max-width: 40%;
+    max-height: 38vh;
 }
+
 /*Tres puntos*/
 .slide-inner {
     position: relative;
@@ -19,6 +21,10 @@
     position: static;
     opacity: 100;
 }
+.carrito{
+    width: 6vh;
+    height: 6vh ;
+}
 
 .slide-item {
     position: absolute;
@@ -30,7 +36,8 @@
 .slide-item img {
     display:block;
     margin:auto;
-    max-width: 100%;
+    max-width: 100vw;
+    height: 38vh;
 }
 
 .slide-control {
@@ -43,7 +50,7 @@
     height: 40px;
     line-height: 35px;
     position: absolute;
-    top: 50%;
+    top: 24%;
     -webkit-transform: translate(0, -50%);
     cursor: pointer;
     -ms-transform: translate(0, -50%);
@@ -94,6 +101,7 @@
     cursor: pointer;
     display: block;
     font-size: 35px;
+   
 }
 
 .slide-circulo:hover {
@@ -107,6 +115,7 @@
 #slide-3:checked ~ .control-3 ~ .slide-indicador 
       li:nth-child(3) .slide-circulo {
     color: #428bca;
+    height: 40vh;
 }
 
 #titulo {
@@ -122,3 +131,40 @@
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), 
          -1px 0px 2px rgba(255, 255, 255, 0);
 }
+.categorias{
+    position: absolute;
+    width: 80vw;
+    height: 105vh;
+    
+    right: 22vw;
+    top:60vh;
+}
+.aside-categorias-img{ /*Imagenes */
+    display: inline-flexbox;
+    width: 20vw;
+    height: 10vh;
+    margin: 5% auto;
+    left: 13vw;
+    display: inline;
+    border-radius: 1rem;
+    position: relative;
+    text-align: start;
+}
+.categoria-img{
+    top:2rem;
+    position: relative;
+    width: 25vw;
+    height: 48vh;
+    text-align: center;
+    border-radius: 1rem;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.logoHeader{
+    width: 14vh;
+    max-height: 8vh;
+}
+
+
