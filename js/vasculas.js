@@ -4,27 +4,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const baseDeDatos = [
         {
             id: 1,
-            nombre: 'Termometro modelo: 531',
-            imagen: '/img/homeZoo/Termometros/termometro2.png',
-            precio: 500
+            nombre: 'Vacuna modelo: 3022',
+            imagen: '/img/homeZoo/Vacuna/vacuna1.png',
+            precio: 790
         },
         {
             id: 2,
-            nombre: 'Bascula modelo: 321',
-            imagen: '/img/homeZoo/Termometros/termometro1.png ',
-            precio: 200
+            nombre: 'Vacuna modelo: 4222',
+            imagen: '/img/homeZoo/Vacuna/vacuna3.png',
+            precio: 1022
         },
         {
             id: 3,
-            nombre: 'Termometro modelo: 241 ',
-            imagen: '/img/homeZoo/Termometros/termometro3.png',
-            precio: 433
+            nombre: 'Vacuna modelo: 6921',
+            imagen: '/img/homeZoo/Vacuna/vacuna2.png',
+            precio: 745
         },
         {
             id: 4,
-            nombre: 'Termometro modelo: 241',
-            imagen: '/img/homeZoo/Termometros/termometro4.png',
-            precio: 433
+            nombre: 'Vacuna modelo: HA',
+            imagen: '/img/homeZoo/Vacuna/vacunaTripleHA.png',
+            precio: 543
         }
 
     ];
