@@ -22,8 +22,8 @@
     opacity: 100;
 }
 .carrito{
-    width: 6vh;
-    height: 6vh ;
+    max-width: 9vh;
+    height: 8vh ;
 }
 
 .slide-item {
@@ -167,4 +167,185 @@
     max-height: 8vh;
 }
 
+.carrito{
+    height: 6wh;
+    width: 7vw;
+}
+nav{
+    font-weight: 600rem;
+}
 
+#items{
+    display: block;
+    position: absolute;
+    width: 90vw;
+    height: 113vh;
+    right: 4vw;
+    top: 15vh;
+}
+
+.col4{
+    display: inline-block;
+    width: 29vw;
+    height: 15vh;
+    margin: 5% auto;
+    left: 5vw;
+    border-radius: 1rem;
+    position: relative;
+    text-align: justify;
+    font-size: 3rem;
+
+    color: var(--tertiaryColor);
+}
+
+
+.imgFluid{
+    position: relative;
+    width: 23vw;
+    height: 56vh;
+    text-align: center;
+    border-radius: 1rem;
+}
+.btn-primary{
+    display: inline;
+    margin: 12% auto;
+    left: -1vw;
+    position: relative;
+    text-align: center;
+    width: 22vw;
+    height: 6vh;
+    min-width: 8rem;
+    border-radius: .5rem;
+    background-color: crimson;
+    font-size: 2rem;
+    bottom: 3rem;
+}
+.col-sm-4{
+    
+    background-color:var(--tertiaryColor) ;
+    position:absolute;
+}
+.noMostrarNo > div{
+    font-size: 0;
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+.noMostrarNo img {
+    font-size: 0;
+    position: absolute;
+    width: 0;
+    height: 0;
+    color: none;
+}
+.noMostrarNo button {
+    font-size: 0;
+    position: absolute;
+    width: 0;
+    height: 0;
+    color: none;
+}
+.noMostrarNo h5 {
+    font-size: 0;
+    position: absolute;
+    width: 0;
+    height: 0;
+    color: none;
+}
+.btnCompra{
+    display:flexbox;
+    position:relative;
+    text-align:center;
+    width: 22vw;
+    height: 6vh;
+    background-color: rgb(210, 243, 93);
+    font-size: 2rem;
+    left: -8vw;
+}
+.btnVaciarCar , .btnComprarCar{
+    display: inline-block;
+    margin: 5% auto;
+    left: 48vw;
+    position: relative;
+    text-align: center;
+    width: 22vw;
+    height: 7vh;
+    border-radius: .7rem;
+    font-size: 2rem;
+    background-color: red;
+}
+.list-group , .totalCar, .text-right{
+    font-size: 2rem;
+}
+.tituloCar{
+    font-size: 2.6rem;
+}
+.btnComprarCat{
+    display: inline-block;
+    margin: 2% auto;
+    left: 77vw;
+    position: relative;
+    text-align: center;
+}
+.btnReturn{
+    display:flexbox;
+    position:relative;
+    text-align:center;
+    width: 22vw;
+    height: 6vh;
+    background-color: rgb(135, 240, 131);
+    font-size: 2rem;    
+    display: inline-block;
+    margin: 2% auto;
+    right: 90vw;
+    position: relative;
+    text-align: center;
+}
+/*datos*/
+.datos{
+    margin-left: 2vw;
+    font-size: 2rem;
+    color: white;
+    display: block;
+    position: absolute;
+    top: 75vh;   
+}
+input{
+    text-align: center;
+    border: 1rem;
+    background-color: #6d9af3;
+}
+#caja {display: block;
+    position: absolute; width: 300%; float:right; border: 1px solid black; top: 250vh; color: azure;}
+.pago{
+    margin-left: 2vw;
+    font-size: 2rem;
+    display: block;
+    position: absolute;
+    top: 195vh; 
+}
+.resultadoEscribe{
+    color: aqua;
+}
+
+.texttotal{
+    background-color: aqua;
+    margin-left: 2vw;
+    font-size: 2rem;
+    display: block;
+    position: absolute;
+    top: 195vh; 
+}
+.imgDatos{
+    width: 35vw;
+    display:inline-flexbox;
+    position:relative;
+    text-align:center;
+}
+.form-control{
+    width: 50vw;   
+}
+.logo{
+    width: 3vw;
+    height: 3vh;
+}
