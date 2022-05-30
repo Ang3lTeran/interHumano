@@ -185,22 +185,19 @@ document.addEventListener('DOMContentLoaded', () => {
             carrito = JSON.parse(miLocalStorage.getItem('carrito'));
         }
     }
-
-    // Eventos
-    DOMbotonVaciar.addEventListener('click', vaciarCarrito);
-
-    // Inicio
-    cargarCarritoDeLocalStorage();
-    renderizarProductos();
-    renderizarCarrito();
-});
-var x=carrito
+    var x=carrito
 //Formularios
 function escribe() {
     var age = document.getElementById("tdc");
     escribir = document.getElementById("caja")
+    var elements = document.getElementById("carrito").innerHTML;
+    var total = document.getElementById("total").calcularTotal;
+    const img = document.createElement('img')
+    var img2 = document.createElement('img'); // Uso DOM HTMLImageElement
+    img2.src = '/img/logoHG.png';
+    var logo = document.body.appendChild(img2);
 
-    miTitulo = "<p>" +"<h3>Nombre del cliente: </h3>" + document.datos.name.value + document.datos.lastName.value +"</p>"
+    datosCliente = "<p>" +"<h3>Nombre del cliente: </h3>" + document.datos.name.value + document.datos.lastName.value +"</p>"
     miCalle = "<p>" + document.datos.street.value + "</p>"
     miColonia = "<p>" + document.datos.colonia.value + "</p>"
     miEstado = "<p>" + document.datos.estado.value + "</p>"
@@ -208,7 +205,78 @@ function escribe() {
     miCP = "<p>" + document.datos.cp.value + "</p>"
     miEMail = "<p>" + document.datos.mail.value + "</p>"
     miTelefono = "<p>" + age.value + "</p>"
-    document.documentElement.innerHTML = "<p>" + x.value+ "</p>"
+    document.documentElement.innerHTML =
+    document.write("<link rel='stylesheet'  class='CSS/style.css'>");
+    document.write("<div id='app'; class='col-11'>");
+    document.write("<h2>Factura</h2>");
+    document.write("<div class='row my-3'>");
+    document.write("<div class='col-10'>"); 
+    document.write("<h1>Home Zoo</h1>");
+    document.write("<p>Av. cda Santa Cruz #4</p>");
+    document.write("<p>San Miguel Topilejo</p>");
+    document.write("<p>Tlalpan</p>");
+    document.write("<p>CDMX</p>");
+    document.write("<p>CP: 14500</p>");
+    document.write("</div>");
+    document.write("<div class='col-2'>");
+    //document.write("<img class='logoHeader' src='/img/logoHG.png' />");
+    document.write("</div>");
+    document.write("</div>");
+
+    document.write("<hr />");
+    
+    document.write("<div class='row fact-info mt-3'>");
+    document.write("<div class='col-3'>");
+    document.write("<h5>Facturar a</h5>");
+    document.write("<h5>Facturar a</h5>");
+    document.write("<p>"+datosCliente+"</p>");
+    document.write("</div>");
+    document.write("<div class='col-3'>");
+    document.write("<h5>N° de factura</h5>");
+    document.write("<h5>Fecha</h5>");
+    document.write("<h5>Fecha de vencimiento</h5>");
+    document.write("</div>");
+    document.write("<h5>Fecha</h5>");
+    document.write("<div class='col-3'>");
+    document.write("<h5>103</h5>");
+    document.write("<p>09/05/2019</p>");
+    document.write("<p>09/05/2019</p>");
+    document.write("</div>");
+    document.write("</div>");   
+    
+    document.write("<h5>N° de factura</h5>");
+    document.write("<h5>Fecha</h5>");
+    document.write("<h5>Fecha de vencimiento</h5>");
+    document.write("</div>");
+    document.write("<h5>Fecha</h5>");
+    document.write("<div class='col-3'>");
+    document.write("<h5>103</h5>");
+    document.write("<p>09/05/2019</p>");
+    document.write("<p>09/05/2019</p>");
+    document.write("</div>");
+    document.write("</div>");
+
+    document.write("<div class='row my-5'>");
+    document.write("<table class='table table-borderless factura'>");
+    document.write("<thead>");
+    document.write("<tr>");
+    document.write(elements);
+    document.write("</tr>");
+    document.write("</thead>");
+    document.write("<div class=\"\">");
+    
+
+    document.write("<p></p>");
+    document.write("<p></p>");
+ 
+    
+    document.write("<thead>");
+    document.write("<tr>");
+    document.write("");
+    document.write("");
+
+    document.write("<hr>");
+
     /*
     document.documentElement.innerHTML = document.getElementById("total").value + miTitulo  + miCalle + miColonia + miEstado + miMunicipio + miCP
     + miTelefono + miEMail
@@ -218,7 +286,15 @@ function escribe() {
     var formaP;
 window.onload = function() {
 document.datos.ver.onclick = escribe
-} 
+}
+    // Eventos
+    DOMbotonVaciar.addEventListener('click', vaciarCarrito);
+
+    // Inicio
+    cargarCarritoDeLocalStorage();
+    renderizarProductos();
+    renderizarCarrito();
+}); 
 
 //pagos
 $(document).ready(function() {
