@@ -22,8 +22,8 @@
     opacity: 100;
 }
 .carrito{
-    max-width: 9vh;
-    height: 8vh ;
+    width: 6vh;
+    height: 6vh ;
 }
 
 .slide-item {
@@ -166,7 +166,6 @@
     width: 14vh;
     max-height: 8vh;
 }
-
 .carrito{
     height: 6wh;
     width: 7vw;
@@ -178,17 +177,17 @@ nav{
 #items{
     display: block;
     position: absolute;
-    width: 90vw;
+    width: 78vw;
     height: 113vh;
-    right: 4vw;
+    right: 20vw;
     top: 15vh;
 }
 
 .col4{
     display: inline-block;
-    width: 29vw;
-    height: 15vh;
-    margin: 5% auto;
+    width: 26vw;
+    height: 49vh;
+    margin: 10% auto;
     left: 5vw;
     border-radius: 1rem;
     position: relative;
@@ -201,15 +200,15 @@ nav{
 
 .imgFluid{
     position: relative;
-    width: 23vw;
-    height: 56vh;
+    width: 25vw;
+    height: 55vh;
     text-align: center;
     border-radius: 1rem;
 }
 .btn-primary{
-    display: inline;
-    margin: 12% auto;
-    left: -1vw;
+    display: inline-block;
+    margin: 5% auto;
+    left: 6vw;
     position: relative;
     text-align: center;
     width: 22vw;
@@ -256,11 +255,10 @@ nav{
     display:flexbox;
     position:relative;
     text-align:center;
-    width: 22vw;
+    width: 34vw;
     height: 6vh;
     background-color: rgb(210, 243, 93);
     font-size: 2rem;
-    left: -8vw;
 }
 .btnVaciarCar , .btnComprarCar{
     display: inline-block;
@@ -297,7 +295,7 @@ nav{
     font-size: 2rem;    
     display: inline-block;
     margin: 2% auto;
-    right: 90vw;
+    right: 98vw;
     position: relative;
     text-align: center;
 }
@@ -345,7 +343,39 @@ input{
 .form-control{
     width: 50vw;   
 }
-.logo{
-    width: 3vw;
-    height: 3vh;
-}
+
+/*Factura*/
+.factura {
+    table-layout: fixed;
+  }
+  
+  .fact-info > div > h5 {
+    font-weight: bold;
+  }
+  
+  .factura > thead {
+    border-top: solid 3px #000;
+    border-bottom: 3px solid #000;
+  }
+  
+  .factura > thead > tr > th:nth-child(2), .factura > tbod > tr > td:nth-child(2) {
+    width: 300px;
+  }
+  
+  .factura > thead > tr > th:nth-child(n+3) {
+    text-align: right;
+  }
+  
+  .factura > tbody > tr > td:nth-child(n+3) {
+    text-align: right;
+  }
+  
+  .factura > tfoot > tr > th, .factura > tfoot > tr > th:nth-child(n+3) {
+    font-size: 24px;
+    text-align: right;
+  }
+  
+  .cond {
+    border-top: solid 2px #000;
+  }
+
