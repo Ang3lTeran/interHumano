@@ -5,45 +5,25 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 1,
             nombre: 'Bascula modelo: 423',
-            imagen: '/img/homeZoo/Mesas/mesa1.png',
+            imagen: 'Basculas/bascula.png',
             precio: 2349
         },
         {
             id: 2,
             nombre: 'Bascula modelo: 231',
-            imagen: '/img/homeZoo/Mesas/mesa5.png ',
+            imagen: 'Basculas/Bascula1.png ',
             precio: 9000
         },
         {
             id: 3,
             nombre: 'Bascula modelo 235',
-            imagen: '/img/homeZoo/Mesas/MESA6.png',
+            imagen: 'Basculas/bascula2.png',
             precio: 9000
         },
         {
             id: 4,
             nombre: 'Bascula modelo 4911',
-            imagen: '/img/homeZoo/Mesas/MESA7.png',
-            precio: 4032
-        }
-        ,
-        {
-            id: 5,
-            nombre: 'Bascula modelo 4911',
-            imagen: '/img/homeZoo/Mesas/mesa8.png',
-            precio: 4032
-        },
-        {
-            id: 6,
-            nombre: 'Bascula modelo 4911',
-            imagen: '/img/homeZoo/Mesas/messa10.png',
-            precio: 4032
-        }
-        ,
-        {
-            id: 7,
-            nombre: 'Bascula modelo 4911',
-            imagen: '/img/homeZoo/Mesas/messa9.png',
+            imagen: 'Basculas/bascula3.png',
             precio: 4032
         }
 
@@ -217,7 +197,7 @@ function escribe() {
     img2.src = '/img/logoHG.png';
     var logo = document.body.appendChild(img2);
 
-    datosCliente = "<p>" +"<h3>Nombre del cliente: </h3>" + document.datos.name.value + document.datos.lastName.value +"</p>"
+    datosCliente = "<p>" +"<h4>Nombre del cliente: </h4>" + document.datos.name.value +" " + document.datos.lastName.value +"</p>"
     miCalle = "<p>" + document.datos.street.value + "</p>"
     miColonia = "<p>" + document.datos.colonia.value + "</p>"
     miEstado = "<p>" + document.datos.estado.value + "</p>"
@@ -228,10 +208,11 @@ function escribe() {
     document.documentElement.innerHTML =
     document.write("<link rel='stylesheet'  class='CSS/style.css'>");
     document.write("<div id='app'; class='col-11'>");
-    document.write("<h2>Factura</h2>");
+    document.write("<h1>Factura</h1>");
     document.write("<div class='row my-3'>");
     document.write("<div class='col-10'>"); 
-    document.write("<h1>Home Zoo</h1>");
+    document.write("<h2>Home Zoo</h2>");
+    document.write("<img class='logoHeader' src='/img/logoHG.png' width='45wh' height='35vh display='inline-flexbox' position='relative'/>")
     document.write("<p>Av. cda Santa Cruz #4</p>");
     document.write("<p>San Miguel Topilejo</p>");
     document.write("<p>Tlalpan</p>");
@@ -239,7 +220,6 @@ function escribe() {
     document.write("<p>CP: 14500</p>");
     document.write("</div>");
     document.write("<div class='col-2'>");
-    //document.write("<img class='logoHeader' src='/img/logoHG.png' />");
     document.write("</div>");
     document.write("</div>");
 
@@ -247,34 +227,15 @@ function escribe() {
     
     document.write("<div class='row fact-info mt-3'>");
     document.write("<div class='col-3'>");
-    document.write("<h5>Facturar a</h5>");
-    document.write("<h5>Facturar a</h5>");
+    document.write("<h3>Facturar a</h3>");
     document.write("<p>"+datosCliente+"</p>");
     document.write("</div>");
     document.write("<div class='col-3'>");
-    document.write("<h5>N° de factura</h5>");
-    document.write("<h5>Fecha</h5>");
-    document.write("<h5>Fecha de vencimiento</h5>");
-    document.write("</div>");
-    document.write("<h5>Fecha</h5>");
-    document.write("<div class='col-3'>");
-    document.write("<h5>103</h5>");
-    document.write("<p>09/05/2019</p>");
-    document.write("<p>09/05/2019</p>");
+    document.write("<h5>N° de factura: 103</h5>");
+    document.write("<h5>Fecha: 09/06/2021</h5>");
+    document.write("<h5>Fecha de vencimiento: 09/06/2021</h5>");
     document.write("</div>");
     document.write("</div>");   
-    
-    document.write("<h5>N° de factura</h5>");
-    document.write("<h5>Fecha</h5>");
-    document.write("<h5>Fecha de vencimiento</h5>");
-    document.write("</div>");
-    document.write("<h5>Fecha</h5>");
-    document.write("<div class='col-3'>");
-    document.write("<h5>103</h5>");
-    document.write("<p>09/05/2019</p>");
-    document.write("<p>09/05/2019</p>");
-    document.write("</div>");
-    document.write("</div>");
 
     document.write("<div class='row my-5'>");
     document.write("<table class='table table-borderless factura'>");
