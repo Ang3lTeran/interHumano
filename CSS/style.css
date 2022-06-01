@@ -26,7 +26,7 @@ header{
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2rem;
     display: flex;
-    height: 8vh;
+    height: 10vh;
     /* Conjunto 1 background-color: #eeffe1ea; */
     background-color:var(--primaryColor) ;
     justify-content: space-between;
@@ -41,11 +41,19 @@ header{
 
 }
 .logo img{
-    height: 50px;
+    height: 9vh;
+    
 }
-.carrito{
+.huellasHeader{
+    height: 5vh;
+    width: 55vw;
+    opacity: 0.6;
+}
+.iconosHeader{
     height: 6wh;
-    width: 7vw;
+    width: 5vw;
+    padding-left: 1rem;
+    padding-right: .5rem;
 }
 nav{
     font-weight: 600rem;
