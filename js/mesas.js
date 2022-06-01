@@ -23,25 +23,25 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 4,
             nombre: 'Mesa modelo: 4001 ',
-            imagen: '/img/homeZoo/Mesas/MESA7.png',
+            imagen: 'img/homeZoo/Mesas/MESA7.png',
             precio: 5984
         },
         {
             id: 5,
             nombre: 'Mesa modelo: 5019 ',
-            imagen: '/img/homeZoo/Mesas/mesa8.png',
+            imagen: 'img/homeZoo/Mesas/mesa8.png',
             precio: 1099
         },
         {
             id: 6,
             nombre: 'Mesa modelo: 3022 ',
-            imagen: '/img/homeZoo/Mesas/messa9.png',
+            imagen: 'img/homeZoo/Mesas/messa9.png',
             precio: 9999
         },
         {
             id: 7,
             nombre: 'Mesa modelo: 3022 ',
-            imagen: '/img/homeZoo/Mesas/messa10.png',
+            imagen: 'img/homeZoo/Mesas/messa10.png',
             precio: 9999
         }
 

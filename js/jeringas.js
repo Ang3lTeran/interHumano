@@ -5,31 +5,31 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 1,
             nombre: 'Jeringa modelo: 3412',
-            imagen: '/img/homeZoo/jeringas/JERINGA1.png',
+            imagen: 'img/homeZoo/jeringas/JERINGA1.png',
             precio: 400
         },
         {
             id: 2,
             nombre: 'Jeringa modelo: 3412',
-            imagen: '/img/homeZoo/jeringas/JERINGA2.png ',
+            imagen: 'img/homeZoo/jeringas/JERINGA2.png ',
             precio: 400
         },
         {
             id: 3,
             nombre: 'Jeringa modelo: 3412',
-            imagen: '/img/homeZoo/jeringas/JERINGA3.png',
+            imagen: 'img/homeZoo/jeringas/JERINGA3.png',
             precio: 400
         },
         {
             id: 4,
             nombre: 'Jeringa modelo: 3412 ',
-            imagen: '/img/homeZoo/jeringas/JERINGA4.png',
+            imagen: 'img/homeZoo/jeringas/JERINGA4.png',
             precio: 400
         },
         {
             id: 5,
             nombre: 'Jeringa modelo: 2039 ',
-            imagen: '/img/homeZoo/jeringas/JERINGA5A.jpg',
+            imagen: 'img/homeZoo/jeringas/JERINGA5A.jpg',
             precio: 988
         },
         {

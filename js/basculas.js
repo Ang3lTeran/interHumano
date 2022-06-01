@@ -5,13 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 1,
             nombre: 'Jeringa modelo: 3412',
-            imagen: '/img/homeZoo/jeringas/JERINGA1.png',
+            imagen: 'img/homeZoo/jeringas/JERINGA1.png',
             precio: 400
         },
         {
             id: 2,
             nombre: 'Jeringa modelo: 3412',
-            imagen: '/img/homeZoo/jeringas/JERINGA2.png ',
+            imagen: 'img/homeZoo/jeringas/JERINGA2.png ',
             precio: 400
         },
         {

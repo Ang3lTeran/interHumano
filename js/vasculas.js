@@ -5,25 +5,25 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 1,
             nombre: 'Vacuna modelo: 3022',
-            imagen: '/img/homeZoo/Vacuna/vacuna1.png',
+            imagen: 'img/homeZoo/Vacuna/vacuna1.png',
             precio: 790
         },
         {
             id: 2,
             nombre: 'Vacuna modelo: 4222',
-            imagen: '/img/homeZoo/Vacuna/vacuna3.png',
+            imagen: 'img/homeZoo/Vacuna/vacuna3.png',
             precio: 1022
         },
         {
             id: 3,
             nombre: 'Vacuna modelo: 6921',
-            imagen: '/img/homeZoo/Vacuna/vacuna2.png',
+            imagen: 'img/homeZoo/Vacuna/vacuna2.png',
             precio: 745
         },
         {
             id: 4,
             nombre: 'Vacuna modelo: HA',
-            imagen: '/img/homeZoo/Vacuna/vacunaTripleHA.png',
+            imagen: 'img/homeZoo/Vacuna/vacunaTripleHA.png',
             precio: 543
         }
 

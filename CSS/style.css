@@ -248,6 +248,7 @@ nav{
 }
 .btn-primary{
     display: inline-block;
+    color: white;
     margin: 5% auto;
     left: 43vw;
     position: relative;
@@ -256,7 +257,7 @@ nav{
     height: 6vh;
     min-width: 8rem;
     border-radius: .5rem;
-    background-color: crimson;
+    background-color:var(--btnColorPrimary);
     font-size: 2rem;
     bottom: 3rem;
 }
@@ -298,8 +299,9 @@ nav{
     text-align:center;
     width: 22vw;
     height: 6vh;
-    background-color: rgb(210, 243, 93);
+    background-color: var(--btnColorPrimary);
     font-size: 2rem;
+    border-radius: 2rem;
 }
 .btnVaciarCar , .btnComprarCar{
     display: inline-block;
@@ -309,9 +311,9 @@ nav{
     text-align: center;
     width: 22vw;
     height: 7vh;
-    border-radius: .7rem;
+    border-radius: 2rem;
     font-size: 2rem;
-    background-color: red;
+    background-color: var(--btnColorPrimary);
 }
 .list-group , .totalCar, .text-right{
     font-size: 2rem;
@@ -332,13 +334,14 @@ nav{
     text-align:center;
     width: 22vw;
     height: 6vh;
-    background-color: rgb(135, 240, 131);
+    background-color: var(--btnColorPrimary);
     font-size: 2rem;    
     display: inline-block;
     margin: 2% auto;
     right: 98vw;
     position: relative;
     text-align: center;
+    border-radius: 2rem;
 }
 /*datos*/
 .datos{

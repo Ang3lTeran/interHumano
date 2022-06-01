@@ -5,25 +5,25 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 1,
             nombre: 'Termometro modelo: 531',
-            imagen: '/img/homeZoo/Termometros/termometro2.png',
+            imagen: 'img/homeZoo/Termometros/termometro2.png',
             precio: 500
         },
         {
             id: 2,
             nombre: 'Bascula modelo: 321',
-            imagen: '/img/homeZoo/Termometros/termometro1.png ',
+            imagen: 'img/homeZoo/Termometros/termometro1.png ',
             precio: 200
         },
         {
             id: 3,
             nombre: 'Termometro modelo: 241 ',
-            imagen: '/img/homeZoo/Termometros/termometro3.png',
+            imagen: 'img/homeZoo/Termometros/termometro3.png',
             precio: 433
         },
         {
             id: 4,
             nombre: 'Termometro modelo: 241',
-            imagen: '/img/homeZoo/Termometros/termometro4.png',
+            imagen: 'img/homeZoo/Termometros/termometro4.png',
             precio: 433
         }
 
