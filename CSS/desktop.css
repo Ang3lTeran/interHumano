@@ -5,7 +5,7 @@
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
     margin-top: 26px;
     text-align: center;
-    max-width: 40%;
+    max-width: 40vw;
     max-height: 38vh;
 }
 
@@ -50,7 +50,7 @@
     height: 40px;
     line-height: 35px;
     position: absolute;
-    top: 24%;
+    top: 34%;
     -webkit-transform: translate(0, -50%);
     cursor: pointer;
     -ms-transform: translate(0, -50%);
@@ -84,7 +84,7 @@
     margin: 0;
     padding: 0;
     position: absolute;
-    bottom: 2%;
+    bottom: -55%;
     left: 0;
     right: 0;
     text-align: center;
@@ -167,8 +167,8 @@
     max-height: 8vh;
 }
 .carrito{
-    height: 6wh;
-    width: 7vw;
+    height: 3wh;
+    width: 4vw;
 }
 nav{
     font-weight: 600rem;
@@ -185,14 +185,18 @@ nav{
 
 .col4{
     display: inline-block;
-    width: 26vw;
+    width: 22vw;
     height: 49vh;
     margin: 10% auto;
-    left: 5vw;
+    left: 10vw;
     border-radius: 1rem;
     position: relative;
     text-align: justify;
     font-size: 3rem;
+    margin-left: 9px;
+    margin-right: 45px;
+    margin-top: 80px;
+    margin-bottom: 9px;
 
     color: var(--tertiaryColor);
 }
@@ -204,11 +208,12 @@ nav{
     height: 55vh;
     text-align: center;
     border-radius: 1rem;
+    
 }
 .btn-primary{
     display: inline-block;
-    margin: 5% auto;
-    left: 6vw;
+    margin: 10% auto;
+    left: 3vw;
     position: relative;
     text-align: center;
     width: 22vw;
@@ -255,10 +260,11 @@ nav{
     display:flexbox;
     position:relative;
     text-align:center;
-    width: 34vw;
+    width: 22vw;
     height: 6vh;
     background-color: rgb(210, 243, 93);
     font-size: 2rem;
+    right: -15vh;
 }
 .btnVaciarCar , .btnComprarCar{
     display: inline-block;
@@ -281,9 +287,10 @@ nav{
 .btnComprarCat{
     display: inline-block;
     margin: 2% auto;
-    left: 77vw;
+    left: 60vw;
     position: relative;
     text-align: center;
+    right: 97vw;
 }
 .btnReturn{
     display:flexbox;
@@ -295,7 +302,8 @@ nav{
     font-size: 2rem;    
     display: inline-block;
     margin: 2% auto;
-    right: 98vw;
+    right: 70vw;
+      
     position: relative;
     text-align: center;
 }
