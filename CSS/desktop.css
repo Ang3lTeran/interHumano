@@ -220,7 +220,7 @@ nav{
     height: 6vh;
     min-width: 8rem;
     border-radius: .5rem;
-    background-color: crimson;
+    background-color: rgb(214, 189, 48);
     font-size: 2rem;
     bottom: 3rem;
 }
@@ -262,7 +262,7 @@ nav{
     text-align:center;
     width: 22vw;
     height: 6vh;
-    background-color: rgb(210, 243, 93);
+    background-color: rgb(214, 189, 48);
     font-size: 2rem;
     right: -15vh;
 }
@@ -298,7 +298,7 @@ nav{
     text-align:center;
     width: 22vw;
     height: 6vh;
-    background-color: rgb(135, 240, 131);
+    background-color: rgb(6, 156, 1);
     font-size: 2rem;    
     display: inline-block;
     margin: 2% auto;
@@ -386,4 +386,11 @@ input{
   .cond {
     border-top: solid 2px #000;
   }
-
+.btnRegresar{
+    width: 4vw;
+    position: absolute;
+    top: 7.8%;
+    /*left: -150%;*/
+    right: 340%;
+    
+}
