@@ -50,13 +50,10 @@ header{
     opacity: 0.6;
 }
 .iconosHeader{
-    height: 6wh;
-    width: 5vw;
+    height: 10wh;
+    width: 6vw;
     padding-left: 1rem;
     padding-right: .5rem;
-}
-nav{
-    font-weight: 600rem;
 }
 .slide {
     display:block;
@@ -307,7 +304,7 @@ nav{
     text-align:center;
     width: 22vw;
     height: 6vh;
-    background-color: var(--btnColorPrimary);
+    background-color: rgb(214, 189, 48);
     font-size: 2rem;
     border-radius: 2rem;
 }
@@ -321,7 +318,7 @@ nav{
     height: 7vh;
     border-radius: 2rem;
     font-size: 2rem;
-    background-color: var(--btnColorPrimary);
+    background-color: red;
 }
 .list-group , .totalCar, .text-right{
     font-size: 2rem;
@@ -429,4 +426,12 @@ input{
   
   .cond {
     border-top: solid 2px #000;
+  }
+
+  .btnRegresar{
+    width: 10vw;
+    position: absolute;
+    top: 7.8%;
+    /*left: -150%;*/
+    right: 370%;
   }
