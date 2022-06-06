@@ -435,3 +435,18 @@ input{
     /*left: -150%;*/
     right: 370%;
   }
+  .parrafo{
+    color: #fff;
+    text-align: center;
+    padding: 6rem;
+    letter-spacing: 2vh;
+    font-size: 24px;
+}
+.btnVolver{
+    width: 10vw;
+    position: absolute;
+    top: 0vmax;
+    bottom: 45px;
+    /*left: -150%;*/
+    right: 10rem;
+}

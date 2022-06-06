@@ -394,3 +394,18 @@ input{
     right: 340%;
     
 }
+
+.parrafo{
+    color: #fff;
+    text-align: center;
+    padding: 6rem;
+    letter-spacing: 2vh;
+    font-size: 24px;
+}
+.btnVolver{
+    width: 4vw;
+    position: absolute;
+    top: 7.8%;
+    /*left: -150%;*/
+    right: 8rem;
+}
