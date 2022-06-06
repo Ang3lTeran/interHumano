@@ -193,8 +193,8 @@ nav{
     position: relative;
     text-align: justify;
     font-size: 3rem;
-    margin-left: 9px;
-    margin-right: 45px;
+    margin-left: 10px;
+    margin-right: 25px;
     margin-top: 80px;
     margin-bottom: 9px;
 
@@ -222,7 +222,7 @@ nav{
     border-radius: .5rem;
     background-color: rgb(214, 189, 48);
     font-size: 2rem;
-    bottom: 3rem;
+    bottom: 1rem;
 }
 .col-sm-4{
     
