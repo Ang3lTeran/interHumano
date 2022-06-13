@@ -199,6 +199,8 @@ function escribe() {
 
     datosCliente = "<p>" +"<h4>Nombre del cliente: </h4>" + document.datos.name.value +" " + document.datos.lastName.value +"</p>"
     miCalle = "<p>" + document.datos.street.value + "</p>"
+    domicilio= "<p>"+"<h4>Domicilio: </h4>"+ document.datos.street.value +", "+document.datos.colonia.value+", "+
+    document.datos.municipio.value+", "+document.datos.estado.value+", "+document.datos.cp.value+"</p>"
     miColonia = "<p>" + document.datos.colonia.value + "</p>"
     miEstado = "<p>" + document.datos.estado.value + "</p>"
     miMunicipio = "<p>" + document.datos.municipio.value + "</p>"
@@ -224,15 +226,17 @@ function escribe() {
     document.write("</div>");
 
     document.write("<hr />");
+    document.write("<h5>N° de factura: 103</h5>");
+    document.write("<h5>Fecha: 09/06/2021</h5>");
+    document.write("<hr />");
     
     document.write("<div class='row fact-info mt-3'>");
     document.write("<div class='col-3'>");
     document.write("<h3>Facturar a</h3>");
     document.write("<p>"+datosCliente+"</p>");
+    document.write("<p>"+domicilio+"</p>");
     document.write("</div>");
     document.write("<div class='col-3'>");
-    document.write("<h5>N° de factura: 103</h5>");
-    document.write("<h5>Fecha: 09/06/2021</h5>");
     document.write("<h5>Fecha de vencimiento: 09/06/2021</h5>");
     document.write("</div>");
     document.write("</div>");   
