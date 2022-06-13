@@ -194,7 +194,7 @@ function escribe() {
     var total = document.getElementById("total").calcularTotal;
     const img = document.createElement('img')
     var img2 = document.createElement('img'); // Uso DOM HTMLImageElement
-    img2.src = '/img/logoHG.png';
+    img2.src = 'img/logoHG.png';
     var logo = document.body.appendChild(img2);
 
     datosCliente = "<p>" +"<h4>Nombre del cliente: </h4>" + document.datos.name.value +" " + document.datos.lastName.value +"</p>"

@@ -208,6 +208,8 @@ nav{
     height: 55vh;
     text-align: center;
     border-radius: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     
 }
 .btn-primary{
@@ -219,8 +221,8 @@ nav{
     width: 22vw;
     height: 6vh;
     min-width: 8rem;
-    border-radius: .5rem;
-    background-color: rgb(214, 189, 48);
+    border-radius: 1.4rem;
+    background-color: rgb(231, 41, 174);
     font-size: 2rem;
     bottom: 1rem;
 }
